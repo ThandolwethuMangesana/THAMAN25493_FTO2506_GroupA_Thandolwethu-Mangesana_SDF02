@@ -3,78 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codespace Pat Portfolio</title>
+    <title>Meow Garfield Codespace Portfolio</title>
   </head>
   <body>
-    <h1>Codespace cat Portfolio 🎨</h1>
-    <nav>
-      <ul>
-  <li><a href="#about">About Me 👋</a></li>
-  <li><a href="#skills">My Skills ⚒️</a></li>
-  <li><a href="#portfolio">Catfolio 📸</a></li>
-  <li><a href="#Contact">Contact Me 👍</a></li>
-</ul>
-    </nav>
-    <h2 id="about">About Me 😺</h2>
-    <img src="images/cat-codespace.png" />
-    <p>
-      Hi I'm <strong>CodeSpace Cat.</strong>I'm purr-ssionate about web
-      development and design. I've been at the web industry for just one catnap
-      (that's less than a day in human terms), and I adore crafting pawsitively
-      intuitive, whisker-twiching, and fur-tastic web experiences. Whoah that's
-      alot of puns. 🐾
-    </p>
-    <h2 id="skills">My Skills🛠️</h2>
-    <ul>
-      <li>Web Development 💻</li>
-      <li>UI/UX design 🎨</li>
-      <li>Backend Development 🖥️</li>
-      <li>Database Management 🗄️</li>
-      <li>SEO Optimization 🔍</li>
-      <li>Lying in the Sun ☀️</li>
-      <li>Chasing Laser Pointers 🔦</li>
-      <li>Catnip Enthusiast 🌿</li>
-      <li>Meowing for Treats 🐱</li>
-    </ul>
-    <h2 id="portfolio">Catfolio</h2>
-    <table>
-      <tr>
-        <th>Project Name</th>
-        <th>Date</th>
-        <th>Description</th>
-        <th>Thumbnail</th>
-      </tr>
-      <tr>
-        <td>Perfect Landing Page</td>
-        <td>May 2025</td>
-        <td>A delightful landing page for a luxury cat condo.</td>
-        <td><img src="images/1.png" /></td>
-      </tr>
-      <tr>
-        <td>Kitty Commerce</td>
-        <td>June 2025</td>
-        <td>An online store selling the faniciest catnip toys.</td>
-        <td><img src="images/2.png" /></td>
-      </tr>
-      <tr>
-        <td>CatChat Social</td>
-        <td>July 2025</td>
-        <td>A social media platform for cats to meow and hiss.</td>
-        <td><img src="images/3.png" /></td>
-      </tr>
-    </table>
+    <header>
+      <h1>Codespace Cat Portfolio 🎨</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me 👋</a></li>
+          <li><a href="#skills">Skills ⚒️</a></li>
+          <li><a href="#portfolio">Portfolio 📸</a></li>
+          <li><a href="#contact">Contact 👍</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2 id="Contact">Contact Me</h2>
-    <form>
-      <label for="Name">Name:</label>
-      <input type="Name" placeholder="John Doe" required />
-      <label for="Email">Email:</label>
-      <input type="email" placeholder="Johndoe@gmail.com" required />
-      <label for="Message">Message:</label>
-      <textarea placeholder="let's connect!" rows="2" required></textarea>
-      <button>Submit</button>
-     </form>
-     <footer>
+    <main>
+      <section id="about">
+        <h2>About Me 😺</h2>
+        <img src="images/cat-codespace.png" alt="CodeSpace Cat" />
+        <p>
+          Hi I'm <strong>CodeSpace Cat.</strong> I'm purr-ssionate about web
+          development and design. I've been pawing at the web industry for just
+          one catnap (that's less than a day in human terms), and I adore
+          crafting pawsitively intuitive, whisker-twitching, and fur-tastic web
+          experiences. Whoa that's a lot of puns. 🐾
+        </p>
+      </section>
+      <section id="skills">
+        <h2>My Skills 🛠️</h2>
+        <ul>
+          <li>Web Development 🕸️</li>
+          <li>UI/UX Design 🎨</li>
+          <li>Backend Development 🧱</li>
+          <li>Database Management 🖥️</li>
+          <li>SEO Optimization 🔍</li>
+          <li>Lying in the Sun ☀️</li>
+          <li>Chasing Laser Pointers 🔦</li>
+          <li>Catnip Enthusiast 🌿</li>
+          <li>Meowing for Treats 🐱</li>
+        </ul>
+      </section>
+      <section id="portfolio">
+        <h2>Catfolio 📸</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Thumbnail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Perfect Landing Page</td>
+              <td>May 2025</td>
+              <td>A delightful landing page for a luxury cat condo.</td>
+              <td>
+                <img src="images/1.png" alt="Perfect Landing Page Thumbnail" />
+              </td>
+            </tr>
+            <tr>
+              <td>Kitty Commerce</td>
+              <td>June 2025</td>
+              <td>An online store selling the fanciest catnip toys.</td>
+              <td><img src="images/2.png" alt="Kitty Commerce Thumbnail" /></td>
+            </tr>
+            <tr>
+              <td>CatChat Social</td>
+              <td>July 2025</td>
+              <td>A social media platform for cats to meow and hiss.</td>
+              <td><img src="images/3.png" alt="CatChat Social Thumbnail" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="John Doe" required />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="johndoe@gmail.com"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            placeholder="Let's connect!"
+            rows="2"
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
       <p>© 2025 CodeSpace Cat. All rights meow-served.</p>
+    </footer>
   </body>
 </html>
